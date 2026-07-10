@@ -1,0 +1,158 @@
+{
+  "pdf-merge": {
+    "enabled": true,
+    "featured": true
+  },
+  "pdf-split": {
+    "enabled": true,
+    "featured": true
+  },
+  "pdf-rotate": {
+    "enabled": true,
+    "featured": false
+  },
+  "pdf-compress": {
+    "enabled": true,
+    "featured": false
+  },
+  "pdf-info": {
+    "enabled": true,
+    "featured": false
+  },
+  "pdf-extract-pages": {
+    "enabled": true,
+    "featured": false
+  },
+  "pdf-delete-pages": {
+    "enabled": true,
+    "featured": false
+  },
+  "pdf-reorder-pages": {
+    "enabled": true,
+    "featured": false
+  },
+  "pdf-reverse-pages": {
+    "enabled": true,
+    "featured": false
+  },
+  "pdf-to-text": {
+    "enabled": true,
+    "featured": false
+  },
+  "pdf-images-to-pdf": {
+    "enabled": true,
+    "featured": false
+  },
+  "pdf-add-watermark": {
+    "enabled": true,
+    "featured": false
+  },
+  "pdf-add-page-numbers": {
+    "enabled": true,
+    "featured": false
+  },
+  "word-extract-text": {
+    "enabled": true,
+    "featured": false
+  },
+  "word-count": {
+    "enabled": true,
+    "featured": true
+  },
+  "word-clean-text": {
+    "enabled": true,
+    "featured": false
+  },
+  "word-find-replace": {
+    "enabled": true,
+    "featured": false
+  },
+  "word-to-txt": {
+    "enabled": true,
+    "featured": false
+  },
+  "word-to-html": {
+    "enabled": true,
+    "featured": false
+  },
+  "word-extract-headings": {
+    "enabled": true,
+    "featured": false
+  },
+  "word-extract-links": {
+    "enabled": true,
+    "featured": false
+  },
+  "create-from-text": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-analyze": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-to-csv": {
+    "enabled": true,
+    "featured": true
+  },
+  "excel-csv-to-excel": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-split-sheets": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-merge-files": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-merge-sheets": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-remove-empty-rows": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-remove-empty-columns": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-remove-duplicates": {
+    "enabled": true,
+    "featured": true
+  },
+  "excel-clean-spaces": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-find-replace": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-fill-empty": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-summary": {
+    "enabled": true,
+    "featured": true
+  },
+  "excel-preview-first": {
+    "enabled": true,
+    "featured": false
+  },
+  "excel-preview-last": {
+    "enabled": true,
+    "featured": false
+  },
+  "sort": {
+    "enabled": true,
+    "featured": false
+  },
+  "filter": {
+    "enabled": true,
+    "featured": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "nexoraedit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NexoraEdit - منصة ذكية لتحرير وتحويل ملفات PDF و Word و Excel",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently -n BACKEND,FRONTEND \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "start": "npm run start --prefix backend",
+    "build": "npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

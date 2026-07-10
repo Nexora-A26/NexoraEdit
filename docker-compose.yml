@@ -1,0 +1,18 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
+    environment:
+      NODE_ENV: production
+      PORT: 4000
+      ADMIN_KEY: ${ADMIN_KEY:?Set ADMIN_KEY to a unique value of at least 16 characters}
+      MAX_FILE_MB: ${MAX_FILE_MB:-50}
+      JOB_RETENTION_HOURS: ${JOB_RETENTION_HOURS:-24}
+      TRUST_PROXY: ${TRUST_PROXY:-false}
+    volumes:
+      - nexora_storage:/app/backend/storage
+
+volumes:
+  nexora_storage:

@@ -1,0 +1,10 @@
+node_modules
+.env
+.DS_Store
+dist
+backend/storage/uploads/*
+backend/storage/results/*
+backend/storage/jobs.json
+!backend/storage/uploads/.gitkeep
+!backend/storage/results/.gitkeep
+*.log
